@@ -8,43 +8,40 @@ from tarefas import *
 #Antes de tudo fiz o Painel primeiro, para ter uma noção do que fazer nas tarefas e adicionar as funções no dados.py.
 while True:
         print("\n ============== Gerenciador de Finanças Pessoais ===================")
-        print("1 - Adicionar Salário                    2 - Adicionar transação")
-        print("3 - Listar transações                    4 - Remover transação")
-        print("5 - Análise financeira                   6 - Despesas a pagar")
-        print("7 - Pagar despesas                       8 - Despesas pagas")
-        print("9 - Saldo atual                          0 - Sair")
+        print("1 - Adicionar transação                  2 - Listar transações")
+        print("3 - Remover transação                    4 - Análise financeira")
+        print("5 - Despesas a pagar                     6 - Pagar despesas  ")
+        print("7 - Despesas pagas                       8 - Saldo atual")
+        print("9 - Sair")
         print("\n ===================================================================")
         opcao = input("\nEscolha: ")
         
-
+       
         if opcao == "1":
-            adicionar_salario()
-            
-        elif opcao == "2":
             adicionar_transacao()
             
-        elif opcao == "3":
+        elif opcao == "2":
             listar_transacoes()
             
-        elif opcao == "4":
+        elif opcao == "3":
             remover_transacao()
             
-        elif opcao == "5":
+        elif opcao == "4":
             analise_financeira()
             
-        elif opcao == "6":
+        elif opcao == "5":
             despesas_a_pagar()
             
-        elif opcao == "7":
+        elif opcao == "6":
             pagar_despesas()
             
-        elif opcao == "8":
+        elif opcao == "7":
             despesas_pagas()
             
-        elif opcao == "9":
+        elif opcao == "8":
             saldo_atual()
             
-        elif opcao == "0":
+        elif opcao == "9":
             limpar()
             print("Por hoje é isso. Seu controle financeiro está em dia e tudo foi salvo automaticamente. Te esperamos na próxima.") 
             break

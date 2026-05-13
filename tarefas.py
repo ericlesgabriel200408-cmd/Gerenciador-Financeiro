@@ -26,20 +26,10 @@ def carregar_dados():
             return json.load(arquivo)
     except (FileNotFoundError, json.JSONDecodeError):
         return {
-            "salario": 0,
             "transacoes": []
         }
         
 #A aprtir daqui fui fazendo e testanto funções, pesquisando erros e os concertando.
-
-#Foi colocado uma função de Salário a parte, assim o usuário não precisa ficar revendo, pois ficara salvo, ele precisará apenas informar o que será receita adicional e despesas.
-def adicionar_salario():
-    dados = carregar_dados()
-    salario = float(input("Digite o valor do seu salário líquido: R$ "))
-    salario = "saldo"
-    salvar_dados(dados)
-
-    print("Salário adicionado com sucesso!")
 
 def adicionar_transacao():
     dados = carregar_dados()
@@ -90,8 +80,8 @@ def listar_transacoes():
 #Tive um pouco de dificuldade para fazer funcioanar, pois receita e salario tinha feito como variaveis separadas, após juntar funcionou.
 def saldo_atual():
     dados = carregar_dados()
-    saldo + "salario" == transacao["valor"]
-    saldo = dados["salario"]
+    #Aqui só tinah faltado colocar o valor para saldo uma coisa simples de resolver , tava tão afoito que não prestei atenção.
+    saldo = 0
     
     for transacao in dados["transacoes"]:
         
@@ -99,9 +89,7 @@ def saldo_atual():
             saldo += transacao["valor"]
 
         elif transacao["tipo"] == "despesa":
-            saldo + "salario" == transacao["valor"]
-            transacao["valor"] -= "despesa"
-
+            saldo -= transacao["valor"]
     print(f"Saldo atual: R$ {saldo:.2f}")
     
  #Para dar um claresa dos gastos, gasnhos , saldo em uma só lista , assim facilita a leitura.
