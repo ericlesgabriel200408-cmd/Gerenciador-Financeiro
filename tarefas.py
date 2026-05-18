@@ -1,4 +1,4 @@
-## Aqui estão as Variaveis globais uliizadas no Gerenciador Financeiro
+## Aqui estão as Variaveis globais utilizadas no Gerenciador Financeiro
 limpar = []
 carregar_dados = []
 salvar_dados = [] 
@@ -15,8 +15,8 @@ import json
 import os
 import utils
 
-#Uma observação para deixar claro, não tenho conhecimento de importação de j.son e nem como usar um limpa tela.
-#então abri o youtube pesquisei e segui alguns passos para fazer, conseguir implementar graças a um tutorial.
+#Uma observação para deixar claro, não tenho conhecimento nem experiência de importação de j.son e nem como usar uma limpa tela.
+#então abri o youtube pesquisei e segui alguns passos para fazer, conseguir implementar graças a um tutorial via youtube.
 
 import json
 
@@ -40,7 +40,7 @@ def carregar_dados():
         }
         
 #A aprtir daqui fui fazendo e testanto funções, pesquisando erros e os concertando.
-
+#Aqui entra a primeira transação, onde fica opcional de escolha de colocar despesa/receita.
 def adicionar_transacao():
     dados = carregar_dados()
     tipo = input("Tipo (receita/despesa): ")
