@@ -1,8 +1,9 @@
 #  Meu Caixa, um Gerenciador de Finanças Pessoais em Python
-> **Projeto Final de Programação de Computadores** |
-> **Entrega: 21/05/2026** |
-> **Profa. Andrea Ono Sakai** |
-> **Turma: Matutino/(42_32160_Presencial_90)** |
+
+> - **Projeto Final de Programação de Computadores** 
+> - **Entrega: 21/05/2026** 
+> - **Profa. Andrea Ono Sakai** 
+> - **Turma: Matutino/(42_32160_Presencial_90)** 
 
 ---
 
@@ -15,7 +16,7 @@ Abaixo está a descrição detalhada do nosso projeto.
 ---
 
 ## 1. Sobre o Projeto e Escolha do Tema
-O projeto consiste em um sistema de **Controle Financeiro Pessoal**. A escolha partiu de uma necessidade minha e do **Ericles** em organizar nossas próprias contas e despesas no dia a dia. Ele foi o responsável pela maior parte do back-end. Eu, **Nathan** acompanhei o processo e fiquei responsável de cuidar da parte do GitHub e README.
+O projeto consiste em um sistema de **Controle Financeiro Pessoal**. A escolha partiu da nossa necessecidade, e utilidade em si do projeto, em organizar nossas próprias contas e despesas no dia a dia, com o bônus de mesmo após o termino do projeto, continuar sendo usado e aprimorado.
 
 ---
 
