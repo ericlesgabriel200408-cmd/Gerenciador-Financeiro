@@ -43,6 +43,8 @@ O projeto consiste em um sistema de **Controle Financeiro Pessoal**. A escolha p
 ### Inicialização via Terminal
 python main.py
 
+---
+
 ## 4. Funcionalides implementadas 
  Foram implementadas os requisitos do Tema "Controle Financeiro Pessoal":
    - Cadastrar transação (descrição, valor, tipo: receita/despesa, categoria) ficou no adicionar transação
@@ -52,6 +54,8 @@ python main.py
    - Atualizar status: foi implementado diretamente no pagar despesas que logo após consta paga.
    - Exibir saldo atual (receitas - despesas pagas) - Ele informa o saldo líquido que sobra para o usuário.
    - Não foi utilizado bônus, mas usamos as dicas do try/except.
+
+---
 
 ## 5. Dificuldades e aprendizados 
 - Durante  a fase de desenvolvimento e testes, estavamos tendo problemas com os cálculos e saldos, mesmo excluindo e adicionando novas linhas de código para consertar os erros de cálculo, aprendemos sobre .json e como suas funcionalidades servem para salvamento de dados, onde, o salvamentos dos valores de .json remanscente causavam conflito com os novos dados.  
