@@ -15,6 +15,9 @@ import json
 import os
 import utils
 
+def limpar():
+    os.system("cls")
+
 #Uma observação para deixar claro, não tenho conhecimento nem experiência de importação de j.son e nem como usar uma limpa tela.
 #então abri o youtube pesquisei e segui alguns passos para fazer, conseguir implementar graças a um tutorial via youtube.
 
