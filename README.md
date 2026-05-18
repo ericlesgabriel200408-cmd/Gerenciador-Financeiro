@@ -1,6 +1,8 @@
 #  Meu Caixa, um Gerenciador de Finanças Pessoais em Python
-> **Projeto Final de Programação de Computadores** | Entrega: 21/05/2026
-> **Profa. Andrea Ono Sakai** | Turma: Matutino/(42_32160_Presencial_90)
+> **Projeto Final de Programação de Computadores** |
+> **Entrega: 21/05/2026** |
+> **Profa. Andrea Ono Sakai** |
+> **Turma: Matutino/(42_32160_Presencial_90)** |
 
 ---
 
