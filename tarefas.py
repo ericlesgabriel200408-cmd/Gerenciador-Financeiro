@@ -42,7 +42,7 @@ def carregar_dados():
             "transacoes": []
         }
         
-#A aprtir daqui fui fazendo e testanto funções, pesquisando erros e os concertando.
+#A partir daqui fui fazendo e testanto funções, pesquisando erros e os concertando.
 #Aqui entra a primeira transação, onde fica opcional de escolha de colocar despesa/receita.
 def adicionar_transacao():
     dados = carregar_dados()
@@ -65,6 +65,9 @@ def adicionar_transacao():
     
 #Caso adicione uma informação errada ele pode excluir e colocar novamente.
 def remover_transacao():
+    '''# Aqui é a base das obrigatóriedades que.txt
+    
+    '''
     dados = carregar_dados()
     listar_transacoes()
     escolha = int(input("Escolha o número da transação que deseja remover: "))
@@ -91,7 +94,7 @@ def listar_transacoes():
             f"Categoria: {transacao['categoria']}"
         )
 
-#Tive um pouco de dificuldade para fazer funcioanar, mas tentativas de erro conseguir arrumar.
+#Tive um pouco de dificuldade para fazer funcionar, mas tentativas de erro conseguir arrumar.
 def saldo_atual():
     dados = carregar_dados()
     #Aqui só tinha faltado colocar o valor para saldo uma coisa simples de resolver , tava tão afoito que não prestei atenção.
@@ -146,7 +149,7 @@ def pagar_despesas():
         if transacao["tipo"] == "despesa":
             fila_pagamentos.append(transacao)      #buscar apenas as despesas.
 
-    # Aqui  é pra olhar se existe despesas adicionada.
+    # Aqui  é pra olhar se existe despesas adicionadas.
     if len(fila_pagamentos) == 0:
         print("Não há despesas a pagar.")
         return
